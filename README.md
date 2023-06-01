@@ -5,7 +5,7 @@ GAN (Generative Adversarial Network) is a type of deep learning model consisting
 Image-to-image translation using GANs refers to the task of converting an input image from one domain to another, while preserving the underlying structure and content of the image. GANs are employed to learn the mapping between the input and output domains, allowing for the generation of visually plausible images in the target domain. The generator in the GAN model learns to translate the input image into the desired output domain, while the discriminator provides feedback to guide the generator's training. This approach has been successfully applied to various tasks, such as style transfer, colorization, and image super-resolution, enabling the transformation of images from one domain to another with impressive results.
 
 
-dataset: [Bob Ross Paintings segmented]([https://universe.roboflow.com/ai-project-t1xm8/eye-detector-01g2k](https://www.kaggle.com/datasets/residentmario/segmented-bob-ross-images)), refering: [pix2pix image to image translation](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/generative/pix2pix.ipynb) 
+dataset: [Bob Ross Paintings segmented](https://www.kaggle.com/datasets/residentmario/segmented-bob-ross-images), refering: [pix2pix image to image translation](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/generative/pix2pix.ipynb) 
 <!-- 
 ## using eye detection
 
