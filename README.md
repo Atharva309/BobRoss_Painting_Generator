@@ -33,8 +33,9 @@ The dataset used for this project is the **[Segmented Bob Ross Paintings](https:
 
 Below are some examples of paintings generated using the trained model (available in the `GAN.ipynb` file):
 
-![Generated Image](path_to_image.png)
-![Generated Image](path_to_image.png)
+<p align="center">
+  <img src="output_examples/OUTPUT1.png" title="CNN ALE Plot" width="500" height="auto" />
+</p>
 
 ## Conclusion
 
