@@ -28,22 +28,6 @@ The generator learns to map the segmentation masks to the target paintings while
 
 The dataset used for this project is the **[Segmented Bob Ross Paintings](https://www.kaggle.com/datasets/residentmario/segmented-bob-ross-images)** from Kaggle. It contains a rich collection of segmented images alongside their corresponding full-color paintings, making it ideal for image-to-image translation tasks.
 
-## How Pix2Pix Works
-
-The Pix2Pix model is a cGAN that conditions both the generator and discriminator on the input image. Here’s how it works:
-
-1. **Generator**: The generator uses a U-Net architecture. The input image passes through a series of convolutional layers (encoder) and is then reconstructed using a series of upsampling layers (decoder). The skip connections between corresponding layers in the encoder and decoder help preserve spatial information.
-
-2. **Discriminator**: The discriminator uses a PatchGAN approach, which classifies image patches (small areas) rather than the entire image. This helps it focus on fine details and texture rather than global coherence, improving the visual quality of the generated images.
-
-3. **Loss Functions**: The model is trained using a combination of L1 loss (for pixel-level accuracy) and adversarial loss (for realism). The L1 loss encourages the generator to produce images similar to the target, while the adversarial loss ensures the images are realistic.
-
-## How to Run the Project
-
-1. Clone this repository.
-2. Download the dataset from the Kaggle link above.
-3. Follow the steps outlined in the **GAN.ipynb** notebook. The notebook includes code for loading the dataset, defining the Pix2Pix model, training, and generating sample outputs.
-4. Visualize the generated Bob Ross paintings!
 
 ## Example Outputs
 
